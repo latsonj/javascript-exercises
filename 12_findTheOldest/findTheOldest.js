@@ -12,8 +12,8 @@ const findTheOldest = function(array) {
     }
   })
 
-  let sortedAges = calculatedAges.sort((personA, personB) => personB.age - personA.age);
-  return sortedAges[0];
+  let sortedOldestToYoungest = calculatedAges.sort((personA, personB) => personB.age - personA.age);
+  return sortedOldestToYoungest[0];
 };
 
 // Do not edit below this line
