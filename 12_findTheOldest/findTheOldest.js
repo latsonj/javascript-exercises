@@ -3,7 +3,7 @@ const findTheOldest = function(array) {
   const currentYear = date.getFullYear();
 
   let calculatedAges = array.map((person) => {
-    if (!(person.hasOwnProperty("yearOfDeath"))) {
+    if (!("yearOfDeath" in person)) {
       person.age = currentYear - person["yearOfBirth"];
       return person;
     } else {
