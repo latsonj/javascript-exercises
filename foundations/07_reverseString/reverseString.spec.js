@@ -5,6 +5,7 @@ describe('reverseString', () => {
     expect(reverseString('hello')).toEqual('olleh');
   });
 
+<<<<<<< HEAD
 <<<<<<< HEAD:03_reverseString/reverseString.spec.js
   test('reverses multiple words', () => {
     expect(reverseString('hello there')).toEqual('ereht olleh')
@@ -17,6 +18,8 @@ describe('reverseString', () => {
     expect(reverseString('')).toEqual('')
   })
 =======
+=======
+>>>>>>> upstream/main
   test.skip('reverses multiple words', () => {
     expect(reverseString('hello there')).toEqual('ereht olleh');
   });
@@ -29,5 +32,8 @@ describe('reverseString', () => {
   test.skip('works with blank strings', () => {
     expect(reverseString('')).toEqual('');
   });
+<<<<<<< HEAD
 >>>>>>> upstream/main:foundations/07_reverseString/reverseString.spec.js
+=======
+>>>>>>> upstream/main
 });

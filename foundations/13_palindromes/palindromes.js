@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const palindromes = function (str) {
   let comparisonString = str.replaceAll(" ", "").replaceAll("!", "").replaceAll(",", "").replaceAll(".", "").toLowerCase();
   let reverseString = comparisonString.split("").reverse().join("");
@@ -5,6 +6,10 @@ const palindromes = function (str) {
   if (comparisonString === reverseString) {
     return true;
   } else return false;
+=======
+const palindromes = function () {
+
+>>>>>>> upstream/main
 };
 
 // Do not edit below this line

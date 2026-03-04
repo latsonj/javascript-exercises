@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const reverseString = function(string) {
   const textArr = string.split("");
   const reversedArr = textArr.reverse();
@@ -12,6 +13,11 @@ const reverseString = function(string) {
 
 /* Simple answer (join() method parameter is separator):
 return string.split("").reverse().join(""); */
+=======
+const reverseString = function() {
+
+};
+>>>>>>> upstream/main
 
 // Do not edit below this line
 module.exports = reverseString;

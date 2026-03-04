@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const findTheOldest = function(array) {
   const date = new Date();
   const currentYear = date.getFullYear();
@@ -14,6 +15,10 @@ const findTheOldest = function(array) {
 
   let sortedOldestToYoungest = calculatedAges.sort((personA, personB) => personB.age - personA.age);
   return sortedOldestToYoungest[0];
+=======
+const findTheOldest = function() {
+
+>>>>>>> upstream/main
 };
 
 // Do not edit below this line

@@ -15,6 +15,7 @@
   "homepage": "https://github.com/TheOdinProject/javascript-exercises#readme",
   "devDependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "eslint": "^7.26.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
@@ -25,6 +26,12 @@
     "eslint": "^8.47.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.28.1",
+=======
+    "@eslint/js": "^10.0.1",
+    "case-anything": "^2.1.13",
+    "eslint": "^10.0.2",
+    "globals": "^17.3.0",
+>>>>>>> upstream/main
     "jest": "^29.6.4",
     "jest-cli": "^29.6.4",
     "plop": "^4.0.1"
@@ -32,6 +39,7 @@
   "engines": {
     "npm": ">=8.5.5",
     "node": ">=18.0.0"
+<<<<<<< HEAD
 >>>>>>> upstream/main
   },
   "scripts": {
@@ -41,6 +49,14 @@
   "eslintConfig": {
     "root": true
   },
+=======
+  },
+  "scripts": {
+    "test": "jest",
+    "generate": "plop",
+    "lint": "eslint"
+  },
+>>>>>>> upstream/main
   "jest": {
     "testPathIgnorePatterns": [
       "generators/"

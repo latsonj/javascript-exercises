@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const repeatString = function(string, num) {
   if (num < 0) {
     let negative = string.replace(string, "ERROR");
@@ -16,3 +17,11 @@ const repeatString = function(string, num) {
 
 // Do not edit below this line
  module.exports = repeatString;
+=======
+const repeatString = function() {
+
+};
+
+// Do not edit below this line
+module.exports = repeatString;
+>>>>>>> upstream/main

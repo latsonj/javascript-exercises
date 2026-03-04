@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const add = function(a, b) {
 	return a + b;
 };
@@ -32,6 +33,30 @@ const factorial = function(num) {
   } else {
     return 1;
   }
+=======
+const add = function() {
+	
+};
+
+const subtract = function() {
+	
+};
+
+const sum = function() {
+	
+};
+
+const multiply = function() {
+
+};
+
+const power = function() {
+	
+};
+
+const factorial = function() {
+	
+>>>>>>> upstream/main
 };
 
 // Do not edit below this line

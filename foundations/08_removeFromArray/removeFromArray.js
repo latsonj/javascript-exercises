@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< HEAD:04_removeFromArray/removeFromArray.js
 const removeFromArray = function(array, ...values) {
 
@@ -13,6 +14,9 @@ const removeFromArray = function(array, ...values) {
 =======
 const removeFromArray = function() {
 >>>>>>> upstream/main:foundations/08_removeFromArray/removeFromArray.js
+=======
+const removeFromArray = function() {
+>>>>>>> upstream/main
 };
 
 // Do not edit below this line

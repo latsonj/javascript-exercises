@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const leapYears = function(year) {
   if (year % 100 === 0 && year % 400 === 0) {
     return true;
@@ -8,6 +9,10 @@ const leapYears = function(year) {
   } else {
     return false;
   }
+=======
+const leapYears = function() {
+
+>>>>>>> upstream/main
 };
 
 // Do not edit below this line

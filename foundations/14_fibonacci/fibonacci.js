@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const fibonacci = function(n) {
   let fibonacciArray = [1, 1];
   if (n < 0) {
@@ -7,6 +8,10 @@ const fibonacci = function(n) {
     fibonacciArray.push((fibonacciArray[i-2]) + (fibonacciArray[i-1]))
   }
   return fibonacciArray[fibonacciArray.length - 1];
+=======
+const fibonacci = function() {
+
+>>>>>>> upstream/main
 };
 
 // Do not edit below this line
